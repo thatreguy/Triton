@@ -52,7 +52,7 @@ endif()
 
 #if(PINTOOL AND NOT "${PYTHON_VERSION_STRING}" MATCHES "2.7")
 #   MESSAGE(FATAL_ERROR "The Pin tracer needs Python 2.7.")
-endif()
+#endif()
 
 if(${CMAKE_SYSTEM_NAME} MATCHES "Linux")
   if(GCOV)
