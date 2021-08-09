@@ -339,9 +339,7 @@ namespace triton {
               tritonId = triton::arch::arm::arm32::ID_INS_EOR;
               break;
 
-            case triton::extlibs::capstone::ARM_INS_ERET:
-              tritonId = triton::arch::arm::arm32::ID_INS_ERET;
-              break;
+           
 
             case triton::extlibs::capstone::ARM_INS_VMOV:
               tritonId = triton::arch::arm::arm32::ID_INS_VMOV;
@@ -375,10 +373,7 @@ namespace triton {
               tritonId = triton::arch::arm::arm32::ID_INS_HLT;
               break;
 
-            case triton::extlibs::capstone::ARM_INS_HVC:
-              tritonId = triton::arch::arm::arm32::ID_INS_HVC;
-              break;
-
+            
             case triton::extlibs::capstone::ARM_INS_ISB:
               tritonId = triton::arch::arm::arm32::ID_INS_ISB;
               break;
