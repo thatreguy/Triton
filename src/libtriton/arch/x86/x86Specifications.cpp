@@ -5245,14 +5245,7 @@ namespace triton {
             tritonId = triton::arch::x86::ID_INS_XTEST;
             break;
 
-          case triton::extlibs::capstone::X86_INS_ENDBR32:
-            tritonId = triton::arch::x86::ID_INS_ENDBR32;
-            break;
-
-          case triton::extlibs::capstone::X86_INS_ENDBR64:
-            tritonId = triton::arch::x86::ID_INS_ENDBR64;
-            break;
-
+          
           default:
             tritonId = triton::arch::x86::ID_INS_INVALID;
             break;
